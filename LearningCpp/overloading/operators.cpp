@@ -19,7 +19,7 @@ public:
     friend int operator+ (const Car& c1, const Car& c2);
 };
 
-//We want to sum to cars and get the combined value of them
+//We want to sum two cars and get the combined value of them
 int operator+ (const Car& c1, const Car& c2) {
     return c1.m_value + c2.m_value;
 }
