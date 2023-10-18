@@ -1,6 +1,5 @@
 # Makefile for inheritance namespace example
 
-# Main target
 CC = g++
 FLAGS = -Wall
 
@@ -15,8 +14,11 @@ file1.o: baseClassFolder/file1.cpp
 
 file2.o: derivedClassFolder/file2.cpp
 	${CC} ${FLAGS} -c derivedClassFolder/file2.cpp
+
+
 clean:
 	find . -type f -name "*.o" -exec rm -f "{}" \;
+
 
 # Note
 # We can see sometimes ".h" files being fed directly to the compiler.
