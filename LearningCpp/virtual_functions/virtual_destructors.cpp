@@ -9,7 +9,11 @@ class Base
 public:
 	virtual std::string_view getName() const { return "Base"; };
 
-	virtual ~Base() = default;
+	//virtual ~Base() = default;
+	virtual ~Base()
+	{
+		std::cout << "Calling Base destructor\n";
+	}
 };
 
 class Derived: public Base 

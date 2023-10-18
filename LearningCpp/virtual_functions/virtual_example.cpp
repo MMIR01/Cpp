@@ -65,7 +65,7 @@ int main()
 	//It will print "Base", as it is not virtual
 	std::cout << rBase.getName() <<"\n";
 	//It will print "New Derived2". Why? It
-	// calls the most derived matching function between Base and Derived2
+	//calls the most derived matching function between Base and Derived2
 	std::cout << rBase.getName2() <<"\n";
 
 

@@ -31,13 +31,13 @@ class Derived : public Base
 		: Base{value1}, m_derived_value{value2}
 		{};
 
-	std::string_view getName() const { return "Derived"; }
+		std::string_view getName() const { return "Derived"; }
 };
 
 int main()
 {
 	Derived derived1{6,7};
-	//This is ok, as we have redifened that base function as public
+	//This is ok
 	std::cout << "My name is: " << derived1.getName() << "\n";
 	//Same if we use reference and pointer
 	Derived& rDerived1{derived1};
