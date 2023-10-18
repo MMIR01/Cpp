@@ -1,0 +1,10 @@
+How to compile: 
+1) make
+2) Alternative:
+g++ -Wall main.cpp baseClassFolder/file1.cpp derivedClassFolder/file2.cpp -o example
+
+How to execute:
+./example
+
+Remove .o files. Execute:
+make clean
