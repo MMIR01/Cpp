@@ -1,0 +1,6 @@
+/home/vboxuser/repos/Cpp/examples/cmake/CMakeFiles/tutorial.dir
+/home/vboxuser/repos/Cpp/examples/cmake/CMakeFiles/edit_cache.dir
+/home/vboxuser/repos/Cpp/examples/cmake/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/repos/Cpp/examples/cmake/MathFunctions/CMakeFiles/MathFunctions.dir
+/home/vboxuser/repos/Cpp/examples/cmake/MathFunctions/CMakeFiles/edit_cache.dir
+/home/vboxuser/repos/Cpp/examples/cmake/MathFunctions/CMakeFiles/rebuild_cache.dir

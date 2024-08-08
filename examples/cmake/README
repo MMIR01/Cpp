@@ -1,0 +1,12 @@
+Cmake example from:
+https://cmake.org/cmake/help/latest/guide/tutorial/A%20Basic%20Starting%20Point.html
+
+To install cmake (Ubuntu):
+apt install cmake
+
+Steps:
+Run cmake to configure the project and generate a native build system:
+cmake .
+
+Compile/link the project:
+cmake --build .
